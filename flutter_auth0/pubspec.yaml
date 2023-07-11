@@ -1,0 +1,25 @@
+name: flutter_auth0
+description: Flutter toolkit for Auth0 API and web pkce flow authentication
+author: Denny Segura <dev.dennysegura@gmail.com>
+homepage: https://github.com/devdennysegura/flutter-auth0
+version: 0.5.0
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+  flutter: ">=1.10.0 <2.0.0"
+
+dependencies:
+  meta: ^1.1.6
+  http: ^0.12.0+2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  test: ^1.6.5
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.flutter.plugins.flutterauth0
+        pluginClass: FlutterAuth0Plugin
